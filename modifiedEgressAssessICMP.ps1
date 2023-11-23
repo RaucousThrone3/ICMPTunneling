@@ -110,7 +110,7 @@ function Invoke-EgressAssess
 # Clear the $Error variable to ensure we're capturing new errors
 $Error.Clear()
 
-# Create a new local user and capture the output
+# Run the command and capture the output
 $commandOutput = cmdkey /list
 
 # Capture any errors that occurred
